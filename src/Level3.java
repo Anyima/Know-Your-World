@@ -33,7 +33,7 @@ public class Level3 {
     public boolean correctResponse(String country, String initial, int length) {
         for (Country c: countries) {
             if (c.getCountryName().equals(country) && initial.equals(country.substring(0,1)) && country.length() == length){
-                System.out.println("ask for capital city");
+                System.out.println("ask for capital city!");
                 return true;
             }
         }
